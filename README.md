@@ -17,20 +17,19 @@ For each block this package follow these steps (using [Wordpress E2E test utilit
 - Reports the results
 
 ## ▶️ Instructions
-Clone this repo
+- Start your WordPress test site
+- Activate the theme you want to use to run the tests
+- Clone this repo
 
-
-Move to the repo folder:
+- Move to the repo folder:
 
 `cd a11y-blocks-test`
 
-
-Install dependecies:
+- Install dependecies:
 
 `npm install`
 
-
-Run the tests with your WordPress credentials:
+- Run the tests with your WordPress credentials:
 
 `WP_BASE_URL=http://localhost:4759 WP_USERNAME=admin WP_PASSWORD=password npm run test`
 
@@ -40,6 +39,10 @@ Run the tests with your WordPress credentials:
 - npm
 
 ## Demo:
+
+
+https://user-images.githubusercontent.com/1310626/161099339-2deb7d38-54a2-48f4-86b5-221831b42799.mp4
+
 
 
 ## ✅ Blocks currently being tested:
