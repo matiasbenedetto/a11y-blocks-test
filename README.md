@@ -17,12 +17,21 @@ For each block this package follow these steps (using [Wordpress E2E test utilit
 - Reports the results
 
 ## ▶️ Instructions
-- Clone this repo
-- Move to the repo folder:
+Clone this repo
+
+
+Move to the repo folder:
+
 `cd a11y-blocks-test`
-- Install dependecies:
+
+
+Install dependecies:
+
 `npm install`
-- Run the tests with your WordPress credentials:
+
+
+Run the tests with your WordPress credentials:
+
 `WP_BASE_URL=http://localhost:4759 WP_USERNAME=admin WP_PASSWORD=password npm run test`
 
 ## 🧰 Requirements
