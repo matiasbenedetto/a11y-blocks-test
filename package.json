@@ -1,0 +1,44 @@
+{
+  "name": "a11y-blocks-test",
+  "version": "0.0.1",
+  "description": "A11y Blocks Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "lint:js": "wp-scripts lint-js --fix"
+  },
+  "keywords": [
+    "A11y",
+    "WordPress",
+    "Gutenberg",
+    "Blocks",
+    "Tests"
+  ],
+  "author": "Automattic",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/e2e-test-utils": "^7.1.0",
+    "@wordpress/jest-puppeteer-axe": "^4.0.2",
+    "jest": "^27.5.1",
+    "jest-esm-transformer": "^1.0.0",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^13.5.1"
+  },
+  "jest": {
+    "verbose": true,
+    "preset": "jest-puppeteer",
+    "testTimeout": 30000,
+    "setupFilesAfterEnv": [
+      "@wordpress/jest-puppeteer-axe"
+    ],
+    "transform": {
+      "\\.m?jsx?$": "jest-esm-transformer"
+    },
+    "maxConcurrency": 1
+  },
+  "devDependencies": {
+    "@wordpress/prettier-config": "^1.1.3",
+    "@wordpress/scripts": "^22.3.0"
+  },
+  "prettier": "@wordpress/prettier-config"
+}
