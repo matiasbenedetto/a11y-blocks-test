@@ -1,5 +1,5 @@
 # Accessibility Gutenberg blocks test
-**A tool to automate the a11y checks of each Gutenberg block rendering the block as the final user will receive it (theme particularities included).**
+**This is a proof of concept around a tool to automate the a11y checks of each Gutenberg block rendering the block as the final user will receive it (theme particularities included).**
 
 **⚠️ Warning**: Don't run this package over a production WordPress instance because it need to write some sample data to the site (example: It will upload a site logo if there if the site has not one defined previously). **Use it only with test WordPress instances**.
 
@@ -39,7 +39,7 @@ For each block this package follow these steps (using [Wordpress E2E test utilit
 - npm
 
 ## Demo:
-
+Visual demo about what the tests do:
 
 https://user-images.githubusercontent.com/1310626/161099339-2deb7d38-54a2-48f4-86b5-221831b42799.mp4
 
@@ -53,6 +53,11 @@ https://user-images.githubusercontent.com/1310626/161099339-2deb7d38-54a2-48f4-8
 - Page List
 - Paragraph
 - Site Logo
+
+
+## TODO:
+- Add tests for all blocks
+- Improve test architecture
 
 
 
