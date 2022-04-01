@@ -1,8 +1,7 @@
 # Accessibility Gutenberg blocks test
+**A tool to automate the a11y checks for Gutenberg blocks + WordPress themes**
 ℹ️ Proof of concept motivated by: https://github.com/WordPress/gutenberg/issues/39266
 
-
-**Tool to automate the a11y checks of each Gutenberg block rendering the block as the final user will receive it (theme particularities included).**
 
 **⚠️ Warning**: Don't run this package over a production WordPress instance because it need to write some sample data to the site (example: It will upload a site logo if there if the site has not one defined previously). **Use it only with test WordPress instances**.
 
